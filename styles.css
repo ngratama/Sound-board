@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+.layout {
+  width: 1366px;
+  height: 768px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+body {
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  font-family: "Dancing Script";
+  font-size: 64px;
+  color: #ddc08b;
+  text-align: center;
+}
+Span {
+  font-family: "Playfair Display SC";
+  font-size: 32px;
+  color:white;
+}
+kbd {
+  font-family: "Playfair Display SC";
+  font-size: 32px;
+  color:white;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff1c; 
+  border-radius: 25px;
+}
+div:hover {
+  background: #18009f1c; 
+  transition-duration: .15s;
+  cursor: pointer;
+}
+#title{
+    padding: 50px;
+}
